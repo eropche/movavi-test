@@ -1,0 +1,21 @@
+{
+  "name": "eropche/movavi-test",
+  "description": "Movavi test task",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.2",
+    "ext-SimpleXML": "*",
+    "ext-json": "*",
+    "ext-mbstring": "*",
+    "ext-libxml": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "MovaviRate\\": "src/",
+      "Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.2"
+  }
+}
